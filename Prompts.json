@@ -1,0 +1,30 @@
+{
+    "Prompts": [
+      {
+        "Persona1": "I am a solution architect",
+        "Scenario": "This is my scenario",
+        "ProblemStatement": "This is my problem Statement",
+        "NFR": "I want solution based on following NFR",
+        "TargetEnvironment":"I am looking for a cloud agnostic solution."
+      },
+      {
+        "Persona": "This is my persona-2",
+        "Scenario1": "This is my scenario-2",
+        "ProblemStatement": "This is my problem Statement-3",
+        "NFR": "I want solution based on following NFR",
+        "TargetEnvironment":"I want to deploy the solution on Azure"
+      },
+      {
+        "Persona": "I am a solution architect and working on Azure Migarion project"
+      },
+      {
+        "Scenario": "I have a application having Microsoft Dot net Framework 1.1. Application also has unaanaged Code, Few assemblied used in code is from Global Assembly cache(GAC). What can be the modernization approches , i can consider. "
+      },
+      {
+        "ProblemStatement": "I also have some Non functioal requirements like cost, scalability, maintainability. i want to analyse above response."
+      },
+      {
+        "NonFunctionRquirements": "I i need same to deploy in AWS then what changes will be needed in proposed modernization aproach"
+      }
+    ]
+  }
