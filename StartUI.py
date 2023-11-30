@@ -136,10 +136,6 @@ def main():
       
 
     st.title("Sample Input from CAT ")
-
-
-
-
     # Example text with placeholders
     template_text = "i have Application ID: [applicationid], which has Technical Stack: [technical_stack], and wants  Scalability Need: [scalabilityneed], Compliances: [compliances], Target Platform: [targetplateform]"
 
@@ -190,6 +186,19 @@ def main():
       template_text = template_text.replace(placeholder, str(df[column].values[0]))
 
    # template_text=process_comma_separated_string(applicationid,template_text)
+    
+    st.write(template_text)
+
+
+
+
+
+
+
+
+
+
+    
 
 
     st.write( template_text)
