@@ -173,17 +173,17 @@ def main():
     prompt_value_dict= add_item_to_dictinary(prompt_value_dict, "compliances", compliances)
     prompt_value_dict= add_item_to_dictinary(prompt_value_dict, "targetplateform", targetplateform)
 
-    st.write(prompt_value_dict)
+   # st.write(prompt_value_dict)
     
 
-    dynamic_values = [applicationid, technical_stack, scalabilityneed, compliances,targetplateform]
+    # dynamic_values = [applicationid, technical_stack, scalabilityneed, compliances,targetplateform]
 
-    final_Prompts_parameters = create_comma_separated_string(*dynamic_values)
+    # final_Prompts_parameters = create_comma_separated_string(*dynamic_values)
 
-    st.write(final_Prompts_parameters)
+    # st.write(final_Prompts_parameters)
 
     df = pd.DataFrame([prompt_value_dict])
-    st.write(df)
+    #st.write(df)
 
     for column in df.columns:
       placeholder = f"[{column}]"
