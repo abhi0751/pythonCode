@@ -1,0 +1,13 @@
+
+[
+{
+	"PromptHeading":"This is prompt 1",
+	"PromptShortDescription":"This is prompt programmers",
+	"PromptFileName":"PromptforCoders.txt"
+},
+{
+	"PromptHeading":"This is prompt 2",
+	"PromptShortDescription":"Prompt for Digital Marketers",
+	"PromptFileName":"PromptforMarketers.txt"
+}
+]
