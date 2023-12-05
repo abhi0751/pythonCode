@@ -142,3 +142,4 @@ ENV/
 # Spyder
 .spyderproject
 .spyderproject.user
+.gitignore.bak
